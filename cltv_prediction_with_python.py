@@ -1,20 +1,3 @@
-# Average Order Value = Total Price / Total Transaction
-# Purchase Frequency = Total Transaction / Total Number of Customer
-# Repeat Rate = Number of Customer Making Multiple Purchases / Total Number of Customer
-# Churn Rate = 1 - Repeat Rate
-# Profit Margin = Total Price * 0.1
-# Customer Value = Average Order Value * Purchase Frequency
-# Customer Life Time Value = (Customer Value / Churn Rate) * Profit Margin
-
-# CLTV_prediction = Expected Number of Transaction * Expected Average Profit
-
-# Expected Number of Transaction    --> BG/NBD Model
-# Expected Average Profit           --> Gamma Gamma Submodel
-
-# CLTV_prediction = BG/NBD Model * Gamma Gamma Submodel
-
-# BG/NBD Model = Transaction Process (Buy) [Gamma] + Dropout Process (Till you die) [Beta]
-
 ##############################################################
 # CLTV Prediction with BG-NBD and Gamma-Gamma
 ##############################################################
@@ -41,9 +24,6 @@
 ##############################################################
 # 1. Data Preparation
 ##############################################################
-
-import warnings
-warnings.simplefilter(action='ignore', category=FutureWarning)
 
 import datetime as dt
 import pandas as pd
