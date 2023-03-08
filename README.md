@@ -17,9 +17,7 @@ CLTV_prediction = BG/NBD Model * Gamma Gamma Submodel
 
 BG/NBD Model = Transaction Process (Buy) [Gamma] + Dropout Process (Till you die) [Beta]
 
-#############################################################
 ## CLTV Prediction with BG-NBD and Gamma-Gamma
-#############################################################
 
 1. Data Preparation
 2. Expected Number of Transaction with BG-NBD Model
