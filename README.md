@@ -28,7 +28,7 @@ BG/NBD Model = Transaction Process (Buy) [Gamma] + Dropout Process (Till you die
 The dataset named "Online Retail II" includes the sales of an UK-based online store between 01/12/2009 - 09/12/2011.
 dataset: https://archive.ics.uci.edu/ml/datasets/Online+Retail+II
 
-##Variables
+## Variables
 
 *Invoice       :Invoice number. The unique number of each transaction, namely the invoice. If it starts with C, it shows the canceled invoice
 
