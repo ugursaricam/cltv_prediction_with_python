@@ -32,23 +32,15 @@ BG/NBD Model = Transaction Process (Buy) [Gamma] + Dropout Process (Till you die
 4. Calculating CLTV with BG-NBD and Gamma-Gamma Model
 5. Segmentation
 
-The dataset named "Online Retail II" includes the sales of an UK-based online store between 01/12/2009 - 09/12/2011.
+## The dataset named "Online Retail II" includes the sales of an UK-based online store between 01/12/2009 - 09/12/2011.
 dataset: https://archive.ics.uci.edu/ml/datasets/Online+Retail+II
 
-## Variables
-
-*Invoice       :Invoice number. The unique number of each transaction, namely the invoice. If it starts with C, it shows the canceled invoice
-
-*StockCode     :Unique number for each product
-
-*Description   :Product description
-
-*Quantity      :It expresses how many of the products on the invoices have been sold
-
-*InvoiceDate   :Invoice date and time
-
-*UnitPrice     :Product price (in GBP)
-
-*CustomerID    :Unique customer number
-
-*Country       :Country where the customer lives
+Variables
+* **Invoice:** Invoice number. The unique number of each transaction, namely the invoice. If it starts with C, it shows the canceled invoice
+* **StockCode:** A 5-digit integral number uniquely assigned to each distinct product.
+* **Description:** Product description
+* **Quantity:** The quantities of each product (item) per transaction.
+* **InvoiceDate:** The day and time when a transaction was generated.
+* **UnitPrice:** Product price (in GBP)
+* **CustomerID:** Unique customer number
+* **Country:** The name of the country where a customer resides.
